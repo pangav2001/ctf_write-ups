@@ -52,7 +52,7 @@ def print_flag():
     return flag.read()
 ```
 
-For this route to be added, we actually have to upload the new *main.py* file to the web app. Before we do that, we need to find out where the extracted files are stored so that we know how many directories we'll have to traverse. From *util.py* we also get that:
+For this route to be added, we actually have to upload the new *main.py* file to the web app. Before we do that, we need to find out where the extracted files are stored so that we know how many directories we'll have to traverse. From *util.py* we get that:
 ```Python
 extractdir = f'{main.app.config["UPLOAD_FOLDER"]}/{generate(15)}'
 ```
