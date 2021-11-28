@@ -31,7 +31,7 @@ We can then save that image into a tar file to see its contents:
 docker save steammaintainer/gearrepairimage > gearrepair.tar
 ```
 
-### Flag hunting begins
+### Flag Hunting
 The first thing I always try when I have some sort of artifact(s) for a challenge is to use the *strings* command so I did the following:
 
 ![strings_command](https://i.imgur.com/DtkRXqf.png)
